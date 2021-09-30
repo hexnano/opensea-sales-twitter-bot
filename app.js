@@ -22,7 +22,7 @@ function formatAndSendTweet(event) {
     const formattedUsdPrice = formattedUnits * tokenUsdPrice;
 
     //const tweetText = `${assetName} bought for ${formattedEthPrice}${ethers.constants.EtherSymbol} ($${Number(formattedUsdPrice).toFixed(2)}) #NFT ${openseaLink}`;
-    const tweetText = `${assetName} bought #nfts #nft #nftart #nftartist #nftcollector #cryptoart #cryptocardwars #nftearlyadoptor #digitalart nftcommunity #art #crypto #opensea #nftcollectors #cryptoyushi #NFT ${openseaLink}`;
+    const tweetText = `${assetName} bought #nfts #nft #nftart #nftartist #nftcollector #cryptoart #cryptocardwars #nftearlyadoptor #digitalart #nftcommunity #art #crypto #opensea #nftcollectors #cryptoyushi #NFT ${openseaLink}`;
 
     console.log(tweetText);
 
